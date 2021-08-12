@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+.id {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh auto;
+    width: 90vw;
+}
+
+.Textsection {
+    margin-bottom: 30vh;
+    position: relative;
+    border-radius: 8px;
+    background-color: #5CBBD7;
+    padding: 2rem 2rem;
+    width: 60%;
+    margin: auto;
+    margin-left: 25%;
+}
+
+.firstsection {
+    margin-bottom: 10vh;
+}
+
+.Secondsection {
+    background-color: #5CBBD7;
+    padding: 10px;
+    box-shadow: 4px 4px 4px #5CBBD7;
+    height: 60vh;
+    width: 60%;
+    margin-left: 25%;
+}
+
+.githublink {
+    color: black;
+    float: right;
+    margin-top: auto 0;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.result {
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid white;
+    padding: 10px 5px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px 5px;
+    margin: auto;
+    justify-content: center;
+}
+
+button {
+    display: block;
+    border-radius: 12px;
+    margin-top: 3vh;
+    padding: 10px 25px;
+}
+
+footer {
+    background-color: #5CBBD7;
+    margin: initial;
+    width: 100%;
+    height: 13vh;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
